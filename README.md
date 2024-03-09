@@ -1,6 +1,6 @@
 # Learning
 
-__The content provided in this repository is intended solely for educational purposes.__
+**The content provided in this repository is intended solely for educational purposes.**
 
 In each training folder you can find:
 

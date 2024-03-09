@@ -10,7 +10,7 @@ The following image shows the role Azure Resource Manager plays in handling Azur
 - On the Azure portal, you interact directly with the individual services and resources (like virtual machines, databases, storage accounts, etc.) that ARM manages, but you're leveraging ARM's capabilities behind the scenes to manage and orchestrate those resources efficiently.
 - ARM template - A JavaScript Object Notation (JSON) file that defines one or more resources to deploy to a resource group, subscription, management group, or tenant. The template can be used to deploy the resources consistently and repeatedly. See [Template deployment overview](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/overview).
 - Bicep file - A file for declaratively deploying Azure resources. [Bicep](../Extras/What%20is%20bicep.md) is a language that was designed to provide the best authoring experience for infrastructure as code solutions in Azure. Bicep offers the same capabilities as ARM templates but with a syntax that's easier to use. Each Bicep file is automatically converted to an ARM template during deployment.
-- __ARM templates are idempotent, which means you can deploy the same template many times and get the same resource types in the same state.__
+- **ARM templates are idempotent, which means you can deploy the same template many times and get the same resource types in the same state.**
 
 The Azure Resource Manager service is designed for resiliency and continuous availability. Resource Manager and control plane operations (requests sent to management.azure.com) in the REST API are:
 
