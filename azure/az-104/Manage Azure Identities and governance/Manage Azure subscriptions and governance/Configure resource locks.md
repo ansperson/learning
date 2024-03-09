@@ -1,4 +1,6 @@
-As an administrator, you can lock an Azure subscription, resource group, or resource to protect them from accidental user deletions and modifications. __The lock overrides any user permissions.__
+# What is?
+
+As an administrator, you can lock an Azure subscription, resource group, or resource to protect them from accidental user deletions and modifications. **The lock overrides any user permissions.**
 
 You can set locks that prevent either deletions or modifications. In the portal, these locks are called Delete and Read-only. In the command line, these locks are called CanNotDelete and ReadOnly.
 

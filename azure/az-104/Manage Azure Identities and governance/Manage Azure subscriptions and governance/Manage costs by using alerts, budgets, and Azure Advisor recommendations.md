@@ -38,7 +38,7 @@ When you create or edit a budget for a subscription or resource group scope, you
 
 Action groups are currently only supported for subscription and resource group scopes. For more information about creating action groups, see action groups.
 
-## Advisor 
+## Advisor
 
 Advisor is a digital cloud assistant that helps you follow best practices to optimize your Azure deployments. It analyzes your resource configuration and usage telemetry and then recommends solutions that can help you improve the cost effectiveness, performance, reliability, and security of your Azure resources.
 
@@ -69,7 +69,3 @@ The Advisor dashboard displays personalized recommendations for all your subscri
 >[Advisor Overview](https://learn.microsoft.com/en-us/azure/advisor/advisor-overview)
 >
 >[Use cost alerts to monitor usage and spending](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/cost-mgt-alerts-monitor-usage-spending)
-
-
-
-

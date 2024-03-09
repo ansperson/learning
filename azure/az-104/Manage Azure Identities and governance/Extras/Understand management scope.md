@@ -1,3 +1,5 @@
+# What is?
+
 Azure provides four levels of management scope: management groups, subscriptions, resource groups, and resources. The following image shows an example of these layers.
 
 ![scope](./img/mgm_scope.png "The four levels of scope in Azure: management groups, subscriptions, resource groups, and resources")

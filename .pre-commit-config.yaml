@@ -1,10 +1,10 @@
 ---
 fail_fast: true
 exclude: |
-    (?x)^(
-      ^Test/.*$|
-      ^Tools/.*$
-    )$
+  (?x)^(
+    ^Test/.*$|
+    ^Tools/.*$
+  )$
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.5.0
@@ -29,8 +29,13 @@ repos:
         args: ['--autofix', --indent=2]
       - id: trailing-whitespace
 
+  - repo: https://github.com/jumanjihouse/pre-commit-hooks
+    rev: 2.1.6
+    hooks:
+      - id: shellcheck
+
   - repo: https://github.com/adrienverge/yamllint
-    rev: v1.26.3
+    rev: v1.35.1
     hooks:
       - id: yamllint
         types: [file, yaml]
@@ -43,7 +48,7 @@ repos:
       - id: gitleaks
 
   - repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.39.0
+    rev: v0.31.1
     hooks:
       - id: markdownlint
 
@@ -53,10 +58,17 @@ repos:
       - id: conventional-pre-commit
         stages: [commit-msg]
         args: [--strict, --force-scope, feat, fix, chore, test, custom]
-
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v2.2.1
     hooks:
       - id: no-commit-to-branch
-      # Only accepts commits to feat or fix branches
+        # Only accepts commits to feat or fix branches
         args: ['--pattern', '^(?!((fix/*|feat/*)\/[a-zA-Z0-9\-]+)$).*']
+
+# - repo: https://github.com/python-jsonschema/check-jsonschema
+#   rev: 0.27.0
+#   hooks:
+#     - id: check-jsonschema
+#       files: ^config/.*\.json$
+#       types: [json]
+#       args: ["--verbose", "--schemafile", "./schema.json"]

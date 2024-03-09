@@ -1,3 +1,5 @@
+# What is?
+
 An Azure subscription is a logical unit of Azure services that's linked to an Azure account. An Azure account is an identity in Microsoft Entra ID or a directory that's trusted by Microsoft Entra ID, such as a work or school account. Subscriptions help you organize access to Azure cloud service resources, and help you control how resource usage is reported, billed, and paid.
 
 ![subscriptions](./img/subscription.png "Azure subscriptions")
@@ -14,7 +16,7 @@ While users may only have a single authentication home directory, users may part
 - Multiple subscriptions can be linked to the same Azure account.
 - Types of subscription includes: Enterprise agreement, Microsoft reseller, Microsoft partner, Personal free account.
 - You can move your subscription to another tenant by clicking at `change directory` at  subscription overview page.
-- Subscriptions are not tied to an Azure Region and as a result can contain resources from any number of Regions. 
+- Subscriptions are not tied to an Azure Region and as a result can contain resources from any number of Regions.
 
 >[!TIP]
 >[Understanding Tenants, Subscriptions, Regions and Geographies in Azure](https://blog.siliconvalve.com/posts/2018/08/27/understanding-tenants-subscriptions-regions-and-geographies-in-azure)

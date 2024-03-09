@@ -7,6 +7,7 @@ Management groups give you enterprise-grade management at scale, no matter what 
 For example, you can apply policies to a management group that limits the regions available for virtual machine (VM) creation. This policy would be applied to all nested management groups, subscriptions, and resources and allow VM creation only in authorized regions.
 
 ## Hierarchy of management groups and subscriptions
+
 You can build a flexible structure of management groups and subscriptions to organize your resources into a hierarchy for unified policy and access management. The following diagram shows an example of creating a hierarchy for governance using management groups.
 
 ![img](./img/mgm_group.png "Hierarchy of management group")
@@ -16,7 +17,7 @@ You can build a flexible structure of management groups and subscriptions to org
   - This limit doesn't include the Root level or the subscription level.
 - Each management group and subscription can only support one parent.
 - Each management group can have many children.
-- All subscriptions and management groups are within a single hierarchy in each directory. 
+- All subscriptions and management groups are within a single hierarchy in each directory.
 - By default, the root management group's display name is Tenant root group and operates itself as a management group. The ID is the same value as the Azure Active Directory (Azure AD) tenant ID.
 - The root management group can't be moved or deleted, unlike other management groups.
 

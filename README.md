@@ -2,7 +2,8 @@
 
 __The content provided in this repository is intended solely for educational purposes.__
 
-In each training folder you can find: 
+In each training folder you can find:
+
 - A README file offering the learning objectives and their respective sources of the training.
 - Comprehensive reference links for each module.
 - Topic explanations that may be compiled from various sources.
@@ -24,5 +25,5 @@ In each training folder you can find:
 
 TODO:
 
-- [ ] Deploy [Docusaurus](https://docusaurus.io/) 
+- [ ] Deploy [Docusaurus](https://docusaurus.io/)
 - [ ] Use [Algolia](https://docsearch.algolia.com/apply)
