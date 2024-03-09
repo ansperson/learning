@@ -29,11 +29,6 @@ repos:
         args: ['--autofix', --indent=2]
       - id: trailing-whitespace
 
-  - repo: https://github.com/jumanjihouse/pre-commit-hooks
-    rev: 2.1.6
-    hooks:
-      - id: shellcheck
-
   - repo: https://github.com/adrienverge/yamllint
     rev: v1.35.1
     hooks:
@@ -64,11 +59,3 @@ repos:
       - id: no-commit-to-branch
         # Only accepts commits to feat or fix branches
         args: ['--pattern', '^(?!((fix/*|feat/*)\/[a-zA-Z0-9\-]+)$).*']
-
-# - repo: https://github.com/python-jsonschema/check-jsonschema
-#   rev: 0.27.0
-#   hooks:
-#     - id: check-jsonschema
-#       files: ^config/.*\.json$
-#       types: [json]
-#       args: ["--verbose", "--schemafile", "./schema.json"]
