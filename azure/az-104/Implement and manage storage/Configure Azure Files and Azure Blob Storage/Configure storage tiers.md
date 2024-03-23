@@ -35,7 +35,7 @@ The Archive tier is an offline tier that's optimized for data that can tolerate 
 In the Azure portal, you can select the blob access tier for your Azure storage account. You can also change the blob access tier for your account at any time. By selecting the correct access tier for your needs, you can store your blob data in the most cost-effective manner.
 
 >[!NOTE]
->Setting the access tier is only allowed on Block Blobs. They are not supported for Append and Page Blobs.
+>Setting the access tier is only allowed on Block Blobs. **They are not supported for Append and Page Blobs**.
 >
 >In an account that has soft delete enabled, a blob is considered deleted after it is deleted and retention period expires. Until that period expires, the blob is only soft-deleted and is not subject to the early deletion penalty.
 
@@ -52,7 +52,7 @@ Changing the default access tier setting for a storage account applies to all bl
 >[!WARNING]
 >**Must Read**
 >
->[How to set a blob tier](https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-online-manage?tabs=azure-portal)
+>[How to set a blob tier](https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-online-manage)
 <!-- MD028/no-blanks-blockquote -->
 >[!TIP]
 >[Introduction](https://learn.microsoft.com/en-us/training/modules/configure-blob-storage/4-create-blob-access-tiers)
