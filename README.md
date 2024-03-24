@@ -23,7 +23,6 @@ In each training folder you can find:
 >
 >By accessing and using the content in this repository, you acknowledge and agree to the terms of this disclaimer.
 
-TODO:
+Improvements:
 
-- [ ] Deploy [Docusaurus](https://docusaurus.io/)
-- [ ] Use [Algolia](https://docsearch.algolia.com/apply)
+- [ ] Deploy [mkdocs-material](https://squidfunk.github.io/mkdocs-material/)

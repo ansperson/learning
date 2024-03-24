@@ -26,16 +26,14 @@ In the Azure portal, you create lifecycle management policy rules for your Azure
   - Move to archive storage: The blob data is transitioned to Archive tier storage.
   - Delete the blob: The blob data is deleted.
 
-## Notes
+## Additional Information
 
 - You can only change the access tier for Block Blobs, when trying to create a lifecycle for Append blobs you have only options related with  delete the objects.
 
->[!WARNING]
->**Must Read**
->
+>[!IMPORTANT]
 >[Lifecycle Management](https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-policy-configure)
 <!-- MD028/no-blanks-blockquote -->
->[!TIP]
+>[!NOTE]
 >[Introduction](https://learn.microsoft.com/en-us/training/modules/configure-blob-storage/5-add-blob-lifecycle-management-rules)
 >
 >[manage Azure Blobs lifecycles](https://www.youtube.com/watch?v=-3k0hhngt7o)

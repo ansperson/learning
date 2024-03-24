@@ -75,10 +75,10 @@ Azure Storage supports three types of blobs:
 - Append blobs are made up of blocks like block blobs, but are optimized for append operations. Append blobs are ideal for scenarios such as logging data from virtual machines.
 - Page blobs store random access files up to 8 TiB in size. Page blobs store virtual hard drive (VHD) files and serve as disks for Azure virtual machines. For more information about page blobs, see Overview of Azure page blobs
 
->[!NOTE]
+>[!TIP]
 >You can also create a blob container with PowerShell by using the `New-AzStorageContainer` command.
 <!-- MD028/no-blanks-blockquote -->
->[!TIP]
+>[!NOTE]
 >[Introduction](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction)
 >
 >[Overview](https://learn.microsoft.com/en-gb/training/modules/configure-blob-storage/2-implement)

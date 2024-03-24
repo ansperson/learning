@@ -33,10 +33,8 @@ There are many benefits to using blob object replication. Consider the following
 - **Consider data distribution.** Optimize your configuration for data distribution. You can process or analyze data in a single location and then replicate only the results to other regions.
 - **Consider costs benefits.** Manage your configuration and optimize your storage policies to achieve cost benefits. After your data is replicated, you can reduce costs by moving the data to the Archive tier by using lifecycle management policies.
 
->[!WARNING]
->Must Read
->
+>[!IMPORTANT]
 >[Hot to Configure Object Replication](https://learn.microsoft.com/en-us/azure/storage/blobs/object-replication-configure)
 <!-- MD028/no-blanks-blockquote -->
->[!TIP]
+>[!NOTE]
 >[Introduction](https://learn.microsoft.com/en-us/training/modules/configure-blob-storage/6-determine-blob-object-replication)

@@ -35,7 +35,7 @@ Azure Blob Storage is Microsoft's object storage solution for the cloud. Blob St
 
 Objects in Blob Storage can be accessed from anywhere in the world via HTTP or HTTPS. Users or client applications can access blobs via URLs, the Azure Storage REST API, Azure PowerShell, the Azure CLI, or an Azure Storage client library. The storage client libraries are available for multiple languages, including .NET, Java, Node.js, Python, PHP, and Ruby.
 
->[!NOTE]
+>[!TIP]
 >You can access data from Azure Blob Storage by using the NFS protocol.
 
 ### Azure Files
@@ -77,7 +77,7 @@ General purpose Azure storage accounts have two tiers: Standard and Premium.
 - Standard storage accounts are backed by magnetic hard disk drives (HDD). A standard storage account provides the lowest cost per GB. You can use Standard tier storage for applications that require bulk storage or where data is infrequently accessed.
 - Premium storage accounts are backed by solid-state drives (SSD) and offer consistent low-latency performance. You can use Premium tier storage for Azure virtual machine disks with I/O-intensive applications like databases.
 
-## Notes
+## Additional Information
 
 - When creating a storage account you can only choose between hot or cool tiers (access tier).
 - You can't change a storage account to a different type after it's created. To move your data to a storage account of a different type, you must create a new account and copy the data to the new account.
@@ -85,12 +85,10 @@ General purpose Azure storage accounts have two tiers: Standard and Premium.
 - Your storage account name must be unique within Azure. No two storage accounts can have the same name.
 - You can't convert a Standard tier storage account to a Premium tier storage account or vice versa. You must create a new storage account with the desired type and copy data, if applicable, to a new storage account.
 
->[!WARNING]
->**Must Read**
->
+>[!IMPORTANT]
 >[Storage Account Create](https://learn.microsoft.com/en-us/azure/storage/common/storage-account-create)
 <!-- MD028/no-blanks-blockquote -->
->[!TIP]
+>[!NOTE]
 >[Introduction](https://learn.microsoft.com/en-us/training/modules/configure-storage-accounts/2-implement-azure-storage)
 >
 >[Storage Services](https://learn.microsoft.com/en-us/training/modules/configure-storage-accounts/3-explore-azure-storage-services)

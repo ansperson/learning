@@ -24,12 +24,12 @@ For applications requiring high durability, you can choose to additionally copy 
 - Geo-zone-redundant storage (GZRS) copies your data synchronously across three Azure availability zones in the primary region using ZRS. It then copies your data asynchronously to a single physical location in the secondary region. Within the secondary region, your data is copied synchronously three times using LRS.
   - <img src="./img/gzrs.png" width="561" height="316">
 
-## Notes
+## Additional Information
 
 - ZRS isn't currently available in all regions.
 - GRS and GZRS offers durability for storage resources of at least 99.99999999999999% (16 9's) over a given year.
 
->[!TIP]
+>[!NOTE]
 >[Storage Redundancy](https://learn.microsoft.com/en-us/azure/storage/common/storage-redundancy)
 >
 >[Redundancy Migration](https://learn.microsoft.com/en-us/azure/storage/common/redundancy-migration)
