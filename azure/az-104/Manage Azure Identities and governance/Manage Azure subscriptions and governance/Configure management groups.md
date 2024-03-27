@@ -10,7 +10,7 @@ For example, you can apply policies to a management group that limits the region
 
 You can build a flexible structure of management groups and subscriptions to organize your resources into a hierarchy for unified policy and access management. The following diagram shows an example of creating a hierarchy for governance using management groups.
 
-<img src="./img/mgm_group.png" alt="Hierarchy of management group" width="515" height="226">
+<img src="./img/mgm_group.png" alt="Hierarchy of management group" width="515" height="226 \">
 
 ## Additional Information
 

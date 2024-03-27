@@ -8,7 +8,7 @@ Your organization wants to implement support for SSPR in their management soluti
 
 - Consider who can reset their passwords. Decide which users in your organization should be enabled to use the feature. In the Azure portal, there are three options for the SSPR feature: None, Selected, and All.
 
-<img src="./img/sspr.png" alt="Password Reset" width="902" height="277">
+<img src="./img/sspr.png" alt="Password Reset" width="902" height="277 \">
 
 The Selected option is useful for creating specific groups who have SSPR enabled. You can create groups for testing or proof of concept before applying the feature to a larger group. When you're ready to deploy SSPR to all user accounts in your Microsoft Entra tenant, you can change the setting.
 

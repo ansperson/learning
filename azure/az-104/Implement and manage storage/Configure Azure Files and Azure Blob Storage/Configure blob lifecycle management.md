@@ -16,7 +16,7 @@ For a blob snapshot or version, the condition that is checked is the number of d
 
 In the Azure portal, you create lifecycle management policy rules for your Azure storage account by specifying several settings. For each rule, you create If - Then block conditions to transition or expire data based on your specifications. As you review these details, consider how you can set up lifecycle management policy rules for your data sets.
 
-<img src="./img/lc_blob.png" width="724" height="621">
+<img src="./img/lc_blob.png" width="724" height="621 \">
 
 - If: The If clause sets the evaluation clause for the policy rule. When the If clause evaluates to true, the Then clause is executed. Use the If clause to set the time period to apply to the blob data. The lifecycle management feature checks if the data is accessed or modified according to the specified time.
   - More than (days ago): The number of days to use in the evaluation condition.

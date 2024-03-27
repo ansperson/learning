@@ -9,7 +9,7 @@ Blob versioning is part of a comprehensive data protection strategy for blob dat
 - **Blob versioning**, to automatically maintain previous versions of a blob. When blob versioning is enabled, you can restore an earlier version of a blob to recover your data if it's erroneously modified or deleted. To learn how to enable blob versioning, see [Enable and manage blob versioning](https://learn.microsoft.com/en-us/azure/storage/blobs/versioning-enable).
 - **Container soft delete**, to restore a container that has been deleted. To learn how to enable container soft delete, see [Enable and manage soft delete for containers](https://learn.microsoft.com/en-us/azure/storage/blobs/soft-delete-container-enable).
 - **Blob soft delete**, to restore a blob, snapshot, or version that has been deleted. To learn how to enable blob soft delete, see [Enable and manage soft delete for blobs](https://learn.microsoft.com/en-us/azure/storage/blobs/soft-delete-blob-enable).
-  - <img src="./img/data_protect.png" width="800" height="450">
+  - <img src="./img/data_protect.png" width="800" height="450 \">
 
 ## Additional Information
 
