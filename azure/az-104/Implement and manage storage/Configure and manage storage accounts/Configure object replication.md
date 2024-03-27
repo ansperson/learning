@@ -8,7 +8,7 @@ Object replication copies blobs in a container **asynchronously** according to p
 
 The following illustration shows an example of asynchronous replication of blob containers between regions.
 
-<img src="./img/blob_replic.png" width="540" height="338 \">
+<img src="./img/blob_replic.png" width="540" height="338" />
 
 ## Things to know about blob object replication
 

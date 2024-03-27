@@ -19,10 +19,10 @@ For applications requiring high durability, you can choose to additionally copy 
 **When you create a storage account, you select the primary region for the account. The paired secondary region is determined based on the primary region, and can't be changed.**
 
 - Geo-redundant storage (GRS) copies your data synchronously three times within a single physical location in the primary region using LRS. It then copies your data asynchronously to a single physical location in the secondary region. Within the secondary region, your data is copied synchronously three times using LRS.
-  - <img src="./img/grs.png" width="561" height="229 \">
+  - <img src="./img/grs.png" width="561" height="229" />
 
 - Geo-zone-redundant storage (GZRS) copies your data synchronously across three Azure availability zones in the primary region using ZRS. It then copies your data asynchronously to a single physical location in the secondary region. Within the secondary region, your data is copied synchronously three times using LRS.
-  - <img src="./img/gzrs.png" width="561" height="316 \">
+  - <img src="./img/gzrs.png" width="561" height="316" />
 
 ## Additional Information
 
