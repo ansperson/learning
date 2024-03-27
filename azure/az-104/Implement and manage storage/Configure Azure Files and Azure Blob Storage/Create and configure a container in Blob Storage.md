@@ -22,7 +22,7 @@ Let's examine some configuration characteristics of Blob Storage.
 
 The following diagram shows the relationship between the Blob Storage resources.
 
-<img src="./img/blob_relationship.png" width="659" height="221 \">
+<img src="./img/blob_relationship.png" width="659" height="221" />
 
 ## Things to consider when implementing Azure Blob Storage
 
@@ -54,7 +54,7 @@ A container organizes a set of blobs, similar to a directory in a file system. A
 
 In the Azure portal, you configure two settings to create a container for an Azure storage account. As you review these details, consider how you might organize containers in your storage account.
 
-<img src="./img/conf_container.png" width="741" height="307 \">
+<img src="./img/conf_container.png" width="741" height="307" />
 
 - Name: Enter a name for your container. The name must be unique within the Azure storage account.
   - The name can contain only lowercase letters, numbers, and hyphens.

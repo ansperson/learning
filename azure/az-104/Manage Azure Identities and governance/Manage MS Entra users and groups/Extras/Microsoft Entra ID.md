@@ -8,7 +8,7 @@ Microsoft Entra ID is Microsoft's multitenant cloud-based directory and identity
 
 The following diagram shows an example implementation of Microsoft Entra ID. In this scenario, Windows Server AD is using Kerberos and NTLM authentication to on-premises applications.
 
-<img src="./img/ms_entra.png" alt="MSAD And MS EntraID" width="942" height="347 \">
+<img src="./img/ms_entra.png" alt="MSAD And MS EntraID" width="942" height="347" />
 
 ## Describe Microsoft Entra concepts
 

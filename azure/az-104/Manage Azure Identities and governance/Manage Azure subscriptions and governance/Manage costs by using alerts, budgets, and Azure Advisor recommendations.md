@@ -4,7 +4,7 @@ With Azure products and services, you pay only for what you use. As you create a
 
 **Microsoft Cost Management provides support for administrative billing tasks and helps you manage billing access to costs.** You can use the product to monitor and control Azure spending, and optimize your Azure resource usage.
 
-<img src="./img/billing.png" alt="Billing Overview" width="669" height="566 \">
+<img src="./img/billing.png" alt="Billing Overview" width="669" height="566" />
 
 ## Cost Analysis
 
