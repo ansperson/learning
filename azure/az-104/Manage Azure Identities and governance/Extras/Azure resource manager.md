@@ -8,7 +8,7 @@ When you send a request through any of the Azure APIs, tools, or SDKs, Resource 
 
 The following image shows the role Azure Resource Manager plays in handling Azure requests.
 
-<img src="./img/arm.png" alt="ARM Service" width="563" height="296">
+<img src="./img/arm.png" alt="ARM Service" width="563" height="296 \">
 
 ## Resiliency of Azure Resource Manager
 
