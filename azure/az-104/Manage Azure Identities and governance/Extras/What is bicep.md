@@ -1,4 +1,4 @@
-# What is?
+# Bicep
 
 Bicep is a domain-specific language (DSL) that uses declarative syntax to deploy Azure resources. In a Bicep file, you define the infrastructure you want to deploy to Azure, and then use that file throughout the development lifecycle to repeatedly deploy your infrastructure. Your resources are deployed in a consistent manner.
 
@@ -61,7 +61,7 @@ JSON (Same resource)
 }
 ```
 
->[!TIP]
+>[!NOTE]
 >[What is Bicep](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview?tabs=bicep)
 >
 >[What is DSL](https://www.jetbrains.com/mps/concepts/domain-specific-languages/)

@@ -1,10 +1,10 @@
-# What is?
+# Implement Microsoft Cost Management
 
 With Azure products and services, you pay only for what you use. As you create and use Azure resources, you're charged for the resources.
 
-Microsoft Cost Management provides support for administrative billing tasks and helps you manage billing access to costs. You can use the product to monitor and control Azure spending, and optimize your Azure resource usage.
+**Microsoft Cost Management provides support for administrative billing tasks and helps you manage billing access to costs.** You can use the product to monitor and control Azure spending, and optimize your Azure resource usage.
 
-![Billing](./img/billing.png "Billing Overview")
+<img src="./img/billing.png" alt="Billing Overview" width="669" height="566">
 
 ## Cost Analysis
 
@@ -50,16 +50,16 @@ With Advisor, you can:
 
 The Advisor dashboard displays personalized recommendations for all your subscriptions. The recommendations are divided into five categories:
 
-**Reliability**: To ensure and improve the continuity of your business-critical applications. For more information, see Advisor Reliability recommendations.
-**Security**: To detect threats and vulnerabilities that might lead to security breaches. For more information, see Advisor Security recommendations.
-**Performance**: To improve the speed of your applications. For more information, see Advisor Performance recommendations.
-**Cost**: To optimize and reduce your overall Azure spending. For more information, see Advisor Cost recommendations.
-**Operational Excellence**: To help you achieve process and workflow efficiency, resource manageability and deployment best practices. For more information, see Advisor Operational Excellence recommendations.
+- **Reliability**: To ensure and improve the continuity of your business-critical applications. For more information, see Advisor Reliability recommendations.
+- **Security**: To detect threats and vulnerabilities that might lead to security breaches. For more information, see Advisor Security recommendations.
+- **Performance**: To improve the speed of your applications. For more information, see Advisor Performance recommendations.
+- **Cost**: To optimize and reduce your overall Azure spending. For more information, see Advisor Cost recommendations.
+- **Operational Excellence**: To help you achieve process and workflow efficiency, resource manageability and deployment best practices. For more information, see Advisor Operational Excellence recommendations.
 
 - Constantly run on your account and make recomendation, cost is one of these categories helping you make savings.
 - There is also a service called [Cost management](https://learn.microsoft.com/en-us/azure/cost-management-billing/cost-management-billing-overview) in which you can see all budgets from subscriptions and resource groups in just one place.
 
->[!TIP]
+>[!NOTE]
 >[Implemente Cost Management](https://learn.microsoft.com/en-us/training/modules/configure-subscriptions/6-implement-cost-management)
 >
 >[Cost Analysis](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/quick-acm-cost-analysis)
