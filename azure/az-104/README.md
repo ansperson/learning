@@ -19,11 +19,15 @@ Each file comprises the following sections:
 - **Topic Explanation:** This section provides an overview of the topic indicated by the file name.
 - **Additional Information** Occasionally, you may find additional information compiled to enrich the understanding of the topic. This content may be sourced from various external references.
 - **BlockQuotes usage:** Include block quotes formatted for clarity and emphasis:
-  - >[!NOTE] Note: Contains reference links to the source material.
-  - >[!IMPORTANT] Important: Essential content crucial for a deeper comprehension of the topic.
-  - >[!TIP] Tip: Provides useful hints and recommendations related to the topic.
+
+>[!NOTE] Note: Contains reference links to the source material.
+<!-- MD028/no-blanks-blockquote -->
+>[!IMPORTANT] Important: Essential content crucial for a deeper comprehension of the topic.
+<!-- MD028/no-blanks-blockquote -->
+>[!TIP] Tip: Provides useful hints and recommendations related to the topic.
+<!-- MD028/no-blanks-blockquote -->
 
 ## Reference
 
 - [MS official Guide](https://learn.microsoft.com/en-gb/credentials/certifications/resources/study-guides/az-104)
-- [MS Learn](https://learn.microsoft.com/en-us/training/paths/az-104-manage-identities-governance/)
+- [MS Learn](https://learn.microsoft.com/en-us/training/paths/az-104-administrator-prerequisites/)
