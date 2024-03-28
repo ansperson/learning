@@ -26,7 +26,7 @@ The Cold tier is also optimized for storing large amounts of data that's infrequ
 
 The archive tier is an offline tier for storing data that is rarely accessed. The archive access tier has the lowest storage cost. However, this tier has higher data retrieval costs with a higher latency as compared to the hot, cool, and cold tiers.
 
-### Archive tier
+#### Archive tier
 
 The Archive tier is an offline tier that's optimized for data that can tolerate several hours of retrieval latency. Data must remain in the Archive tier for at least 180 days or be subject to an early deletion charge. Data for the Archive tier includes secondary backups, original raw data, and legally required compliance information. This tier is the most cost-effective option for storing data. Accessing data is more expensive in the Archive tier than accessing data in the other tiers.
 
@@ -38,6 +38,7 @@ In the Azure portal, you can select the blob access tier for your Azure storage 
 >Setting the access tier is only allowed on Block Blobs. **They are not supported for Append and Page Blobs**.
 >
 >In an account that has soft delete enabled, a blob is considered deleted after it is deleted and retention period expires. Until that period expires, the blob is only soft-deleted and is not subject to the early deletion penalty.
+<!-- MD028/no-blanks-blockquote -->
 
 ## Default account access tier setting
 

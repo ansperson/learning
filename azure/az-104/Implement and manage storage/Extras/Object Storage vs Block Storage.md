@@ -2,6 +2,7 @@
 
 >[!TIP]
 >This is an optional reading for the AZ-104 exam.
+<!-- MD028/no-blanks-blockquote -->
 
 Object storage and block storage are two types of cloud storage — meaning, remote data storage that can be accessed via an Internet connection. Object storage is highly scalable and customizable, but not always fast. Block storage is fast, but usually more expensive than object storage. Which one better fits an organization's use case depends on a number of factors. Overall, object storage is typically used for large volumes of unstructured data, while block storage works best with transactional data and small files that need to be retrieved often.
 
