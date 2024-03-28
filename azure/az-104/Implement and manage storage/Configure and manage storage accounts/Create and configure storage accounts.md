@@ -37,6 +37,7 @@ Objects in Blob Storage can be accessed from anywhere in the world via HTTP or H
 
 >[!TIP]
 >You can access data from Azure Blob Storage by using the NFS protocol.
+<!-- MD028/no-blanks-blockquote -->
 
 ### Azure Files
 

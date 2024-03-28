@@ -85,4 +85,4 @@ You can create your own [custom policy](https://learn.microsoft.com/en-us/azure/
 >[Create a policy assignment](https://learn.microsoft.com/en-gb/azure/governance/policy/assign-policy-portal)
 <!-- MD028/no-blanks-blockquote -->
 >[!NOTE]
-> [Policy Overview](https://learn.microsoft.com/en-us/azure/governance/policy/overview)
+>[Policy Overview](https://learn.microsoft.com/en-us/azure/governance/policy/overview)
