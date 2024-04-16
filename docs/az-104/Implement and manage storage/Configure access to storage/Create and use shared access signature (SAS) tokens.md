@@ -163,7 +163,12 @@ You can revoke the user delegation key by calling the Revoke User Delegation Key
 
 You can change or remove the RBAC role assignment for the security principal that's used to create the SAS. When a client uses the SAS to access a resource, Azure Storage verifies that the security principal whose credentials were used to secure the SAS has the required permissions to the resource.
 
+>[!IMPORTANT]
+>[Create SAS tokens in the Azure portal](https://learn.microsoft.com/en-us/azure/ai-services/translator/document-translation/how-to-guides/create-sas-tokens?tabs=Containers#prerequisites)
+<!-- MD028/no-blanks-blockquote -->
 >[!NOTE]
+>[Storage sas overview](https://learn.microsoft.com/en-us/azure/storage/common/storage-sas-overview)
+>
 >[Delegate access with shared access signature](https://learn.microsoft.com/en-us/rest/api/storageservices/delegate-access-with-shared-access-signature)
 >
 >[Create account sas](https://learn.microsoft.com/en-us/rest/api/storageservices/create-account-sas)
