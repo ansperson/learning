@@ -23,3 +23,4 @@ Blob Storage is designed for:
 >[Storage Files](https://learn.microsoft.com/en-us/azure/storage/files/storage-files-introduction)
 >
 >[Blob Storage](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction)
+<!-- MD028/no-blanks-blockquote -->

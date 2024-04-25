@@ -56,7 +56,7 @@ Finally, every SAS token includes a signature.
 
 The following example shows a blob URI with a service SAS token appended to it. The service SAS token provides read and write permissions to the blob.
 
-```shell
+```url
 https://myaccount.blob.core.windows.net/sascontainer/blob1.txt?sp=rw&st=2023-05-24T01:13:55Z&se=2023-05-24T09:13:55Z&sip=168.1.5.60-168.1.5.70&spr=https&sv=2022-11-02&sr=b&sig=<signature>
 ```
 

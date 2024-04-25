@@ -4,7 +4,7 @@ An Azure storage account contains all of your Azure Storage data objects: blobs,
 
 ## Prerequisites
 
-```shell
+```powershell
 Connect-AzAccount
 ```
 
@@ -37,7 +37,7 @@ New-AzStorageAccount -ResourceGroupName $resourceGroup `
 
 ### Delete a storage account
 
-```shell
+```powershell
 Remove-AzStorageAccount -Name <storage-account> -ResourceGroupName <resource-group>
 ```
 
@@ -79,7 +79,7 @@ Microsoft recommends locking all of your storage accounts with an Azure Resource
 
 ### Configure an Azure Resource Manager lock
 
-```shell
+```powershell
 New-AzResourceLock -LockLevel CanNotDelete `
     -LockName <lock> `
     -ResourceName <storage-account> `

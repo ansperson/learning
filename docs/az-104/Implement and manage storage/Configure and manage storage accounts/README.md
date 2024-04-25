@@ -97,3 +97,4 @@ General purpose Azure storage accounts have two tiers: Standard and Premium.
 >[Storage Services](https://learn.microsoft.com/en-us/training/modules/configure-storage-accounts/3-explore-azure-storage-services)
 >
 >[Overview](https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview)
+<!-- MD028/no-blanks-blockquote -->
